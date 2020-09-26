@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 90%;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+.btn-suivant {
+    background-color: #14143d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.btn-suivant:hover {
+    background-color: #0b0b29;
+}
+
+.btn-suivant:focus {
+    background-color: #14143d;
+    outline: none;
+}
+
+button{
+    background-color: #14143d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+
+
+
+
+
+/*
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #5e3370;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #5e3370;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid border: 2px solid #5e3370;;
+}
+
+*/
+
+
+
+
+
+
+
+/*PAGE D'ACCUEIL */
+
+
+.bloc-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 500px;
+    max-width: 80%;
+}
+
+
+.form-container {
+    text-align: center;
+}
+
+.form-header{
+    background-color: #24245C;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+}
+
+
+.form-header h1 {
+    font-size: 1.9em;
+    padding: 0;
+    padding-top: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.form-header p{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 0.7em;
+    padding-bottom: 20px;
+}
+
+form{
+    text-align: center;
+    padding: 40px;
+    color: #24245C;
+}
+
+form label{
+    margin-bottom: 20px;
+}
+
+form input, select{
+    border: none;
+    border-bottom: 1px solid #24245C ;
+    background: none;
+    outline: none;
+    margin: 20px;
+    width: 90%;
+}
+
+
+.btn-valider{
+    margin: 30px 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+
+.btn-valider{
+    background:#24245C ;
+    color: white;
+    padding: 16px 52px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-valider:hover{
+    background:#14143d ;
+}
+
+.avatar{
+    position: absolute;
+    display: flex;
+    margin-left: 50px ;
+    margin-top:-50px;
+}
+
+img{
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.bloc-container p{
+    text-align: center;
+    font-size: 0.8em;
+}
